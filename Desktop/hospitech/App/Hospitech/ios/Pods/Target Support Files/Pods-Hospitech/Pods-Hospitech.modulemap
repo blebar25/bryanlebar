@@ -1,0 +1,6 @@
+module Pods_Hospitech {
+  umbrella header "Pods-Hospitech-umbrella.h"
+
+  export *
+  module * { export * }
+}
