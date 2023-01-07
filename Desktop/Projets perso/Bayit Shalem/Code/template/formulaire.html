@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bayit Shalem - Plateforme interactive de shiduhims</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bayit Shalem - Plateforme interactive de shiduhims">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/choices/css/choices.min.css">
+
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!-- Header START -->
+<header class="navbar-light navbar-sticky header-static" style="border-bottom: solid; border-bottom-color: #f5f5f5;">
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-expand-xl">
+		<div class="container-fluid px-3 px-xl-5">
+			<!-- Logo START -->
+			<a style="display: block; width: auto;"  href="index.html">
+				<img style="height: 60px !important; max-width: inherit !important;" class="light-mode-item navbar-brand-item" src="assets/images/logo2.jpg" alt="logo">
+				<img class="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+			</a>
+			<!-- Logo END -->
+
+			<!-- Responsive navbar toggler -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-animation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</button>
+
+			<!-- Main navbar START -->
+			<div class="navbar-collapse w-100 collapse" id="navbarCollapse">
+				<!-- Nav Main menu START -->
+				<ul class="navbar-nav navbar-nav-scroll me-auto">
+
+				<!-- Nav Search START -->
+				<div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+
+					</div>
+				</div>
+				<!-- Nav Search END -->
+			</div>
+			<!-- Main navbar END -->
+            <a style="overflow: inherit;" class="btn btn-purple-soft" href="sinscrire.html">S'inscrire</a>
+            <a style="overflow: inherit;" class="btn btn-purple-soft ms-4" href="seconnecter.html">Se connecter</a>
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+<!-- =======================
+Main part START -->
+<section class="bg-light">
+	<div class="container">
+		<div class="row g-5 justify-content-between">
+			<!-- Admission form START -->
+			<div class="col-md-8 mx-auto">
+				<!-- Title -->
+				<h2 class="mb-3">👸 Fiche de chiddoukh 🤴</h2>
+				<p class="mb-1">Avant de remplir le formulaire, veuillez lire les rubriques ci-dessous :</p>
+				<ul class="ps-3">
+					<li>Les champs marqués d'un <span class="text-danger">*</span> sont nécessaires pour remplir le formulaire d'admission.</li>
+				</ul>
+				<!-- Form START -->
+				<form class="row g-3" id="regForm" action="">
+					<div class="tab"> Informations personnelles
+					<!--<h5 class="mb-0">Informations personnelles</h5>-->
+
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div >
+								<h6 class="mb-lg-0">Photo de profile<span class="text-danger">*</span></h6>
+								<label class="position-relative me-4" for="uploadfile-1" title="Replace this pic">
+									<!-- Avatar place holder -->
+									<span class="avatar avatar-xl">
+										<img id="uploadfile-1-preview" class="avatar-img rounded-circle border border-white border-3 shadow" src="assets/images/avatar/07.jpg" alt="">
+									</span>
+									<!-- Remove btn -->
+									<button type="button" class="uploadremove"><i class="bi bi-x text-white"></i></button>
+								</label>
+								<!-- Upload button -->
+								<label class="btn btn-primary-soft" for="uploadfile-1">Première photo</label>
+								<input id="uploadfile-1" class="form-control d-none" type="file">
+
+								<label class="btn btn-primary-soft " for="uploadfile-1">Seconde photo</label>
+								<input id="uploadfile-1" class="form-control d-none" type="file">
+
+								<label class="btn btn-primary-soft" for="uploadfile-1">Troisième photo</label>
+								<input id="uploadfile-1" class="form-control d-none" type="file">
+
+								<label class="btn btn-primary-soft " for="uploadfile-1">Quatrième photo</label>
+								<input id="uploadfile-1" class="form-control d-none" type="file">
+							</div>
+					</div>
+
+					<!-- First name -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Prénom<span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="prénom">
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- Last name -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Nom de famille <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="nom">
+							</div>
+						</div>
+					</div>
+
+					<!-- Middle name 
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Surnom <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="surnom">
+							</div>
+						</div>
+					</div> -->
+
+					<!-- Gender -->
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Genre <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Homme</option>
+									<option>Femme</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Taille (en cm)<span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>130</option>
+									<option>131</option>
+									<option>132</option>
+									<option>133</option>
+									<option>134</option>
+									<option>135</option>
+									<option>136</option>
+									<option>137</option>
+									<option>138</option>
+									<option>139</option>
+									<option>140</option>
+									<option>141</option>
+									<option>142</option>
+									<option>143</option>
+									<option>144</option>
+									<option>145</option>
+									<option>146</option>
+									<option>147</option>
+									<option>148</option>
+									<option>149</option>
+									<option>150</option>
+									<option>151</option>
+									<option>152</option>
+									<option>153</option>
+									<option>154</option>
+									<option>155</option>
+									<option>156</option>
+									<option>157</option>
+									<option>158</option>
+									<option>159</option>
+									<option>160</option>
+									<option>161</option>
+									<option>162</option>
+									<option>163</option>
+									<option>164</option>
+									<option>165</option>
+									<option>166</option>
+									<option>167</option>
+									<option>168</option>
+									<option>169</option>
+									<option>170</option>
+									<option>170</option>
+									<option>171</option>
+									<option>172</option>
+									<option>173</option>
+									<option>174</option>
+									<option>175</option>
+									<option>176</option>
+									<option>177</option>
+									<option>178</option>
+									<option>179</option>
+									<option>180</option>
+									<option>181</option>
+									<option>182</option>
+									<option>183</option>
+									<option>184</option>
+									<option>185</option>
+									<option>186</option>
+									<option>187</option>
+									<option>188</option>
+									<option>189</option>
+									<option>190</option>
+									<option>191</option>
+									<option>192</option>
+									<option>193</option>
+									<option>194</option>
+									<option>195</option>
+									<option>196</option>
+									<option>197</option>
+									<option>198</option>
+									<option>199</option>
+									<option>200</option>
+									<option>201</option>
+									<option>202</option>
+									<option>203</option>
+									<option>204</option>
+									<option>205</option>
+									<option>206</option>
+									<option>207</option>
+									<option>208</option>
+									<option>209</option>
+									<option>210</option>
+									<option>211</option>
+									<option>212</option>
+									<option>213</option>
+									<option>214</option>
+									<option>215</option>
+									<option>216</option>
+									<option>217</option>
+									<option>218</option>
+									<option>219</option>
+									<option>220</option>
+									<option>221</option>
+									<option>222</option>
+									<option>223</option>
+									<option>224</option>
+									<option>225</option>
+									<option>226</option>
+									<option>227</option>
+									<option>228</option>
+									<option>229</option>
+									<option>230</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Handicap <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+										<!-- Date of birth -->
+										<div class="col-12" style="padding-bottom: 10px;">
+											<div class="row g-xl-0 align-items-center">
+												<div class="col-lg-4">
+													<h6 class="mb-lg-0">Date de naissance <span class="text-danger">*</span></h6>
+												</div>
+											
+												<div class="col-lg-8">
+													<div class="row g-2 g-sm-4">
+														<div class="col-4">
+															<select class="form-select js-choice z-index-9 border-0 " aria-label=".form-select-sm">
+																<option value="">Jour</option>
+																<option>1</option>
+																<option>2</option>
+																<option>3</option>
+																<option>4</option>
+																<option>5</option>
+																<option>6</option>
+																<option>7</option>
+																<option>8</option>
+																<option>9</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+																<option>15</option>
+																<option>16</option>
+																<option>17</option>
+																<option>18</option>
+																<option>19</option>
+																<option>20</option>
+																<option>21</option>
+																<option>22</option>
+																<option>23</option>
+																<option>24</option>
+																<option>25</option>
+																<option>26</option>
+																<option>27</option>
+																<option>28</option>
+																<option>29</option>
+																<option>30</option>
+																<option>31</option>
+															</select>
+														</div>
+														<div class="col-4">
+															<select class="form-select js-choice z-index-9 border-0" aria-label=".form-select-sm">
+																<option value="">Mois</option>
+																<option>Jan</option>
+																<option>Feb</option>
+																<option>Mar</option>
+																<option>Apr</option>
+																<option>Jun</option>
+																<option>Jul</option>
+																<option>Aug</option>
+																<option>Sep</option>
+																<option>Oct</option>
+																<option>Nov</option>
+																<option>Dec</option>
+															</select>
+														</div>
+														<div class="col-4">
+															<select class="form-select js-choice z-index-9 border-0" aria-label=".form-select-sm">
+																<option value="">Année</option>
+																<option>1930</option>
+																<option>1931</option>
+																<option>1932</option>
+																<option>1933</option>
+																<option>1934</option>
+																<option>1935</option>
+																<option>1936</option>
+																<option>1937</option>
+																<option>1938</option>
+																<option>1939</option>
+																<option>1940</option>
+																<option>1941</option>
+																<option>1942</option>
+																<option>1943</option>
+																<option>1944</option>
+																<option>1945</option>
+																<option>1946</option>
+																<option>1947</option>
+																<option>1948</option>
+																<option>1949</option>
+																<option>1950</option>
+																<option>1951</option>
+																<option>1952</option>
+																<option>1953</option>
+																<option>1954</option>
+																<option>1955</option>
+																<option>1956</option>
+																<option>1957</option>
+																<option>1958</option>
+																<option>1959</option>
+																<option>1960</option>
+																<option>1961</option>
+																<option>1962</option>
+																<option>1963</option>
+																<option>1964</option>
+																<option>1965</option>
+																<option>1966</option>
+																<option>1967</option>
+																<option>1968</option>
+																<option>1969</option>
+																<option>1970</option>
+																<option>1971</option>
+																<option>1972</option>
+																<option>1973</option>
+																<option>1974</option>
+																<option>1975</option>
+																<option>1976</option>
+																<option>1977</option>
+																<option>1978</option>
+																<option>1979</option>
+																<option>1980</option>
+																<option>1981</option>
+																<option>1982</option>
+																<option>1983</option>
+																<option>1984</option>
+																<option>1985</option>
+																<option>1986</option>
+																<option>1987</option>
+																<option>1988</option>
+																<option>1989</option>
+																<option>1990</option>
+																<option>1991</option>
+																<option>1992</option>
+																<option>1993</option>
+																<option>1994</option>
+																<option>1995</option>
+																<option>1996</option>
+																<option>1997</option>
+																<option>1998</option>
+																<option>1999</option>
+																<option>2000</option>
+																<option>2001</option>
+																<option>2002</option>
+																<option>2003</option>
+																<option>2004</option>
+																<option>2005</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+					<!-- Email -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Email <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="email" class="form-control" id="email">
+							</div>
+						</div>
+					</div>
+
+					<!-- Phone number -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Numéro de téléphone <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="tél">
+							</div>
+						</div>
+					</div>
+
+					<!-- Home address -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Adresse postale <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<textarea class="form-control" rows="3" placeholder=""></textarea>
+							</div>
+						</div>
+					</div>
+					
+					<!-- City -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Ville <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option value="">Choisissez votre ville</option>
+									<option>New york</option>
+									<option>Mumbai</option>
+									<option>Delhi</option>
+									<option>London</option>
+									<option>Los angeles</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Country -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Pays <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option value="">Choisissez votre pays</option>
+									<option>India</option>
+									<option>Canada</option>
+									<option>Japan</option>
+									<option>America</option>
+									<option>Dubai</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Langue du site <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Français</option>
+									<option>Anglais</option>
+									<option>Hébreu</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					</div>
+					</div>
+
+					<!-- Divider 
+					<hr class="my-5">-->
+
+					<!-- Parent detail -->
+					<div class="tab"> Vos caractéristiques
+					<!--<h5 class="mt-0">Vos caractéristiques</h5>-->
+					
+					<!-- Salutation -->
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Situation <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Célibataire</option>
+									<option>Divorcé(e)</option>
+									<option>Veuf/Veuve</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Vous fumez ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Vous buvez ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Si vous êtes divorcé avez vous donné ou reçu le guet ? Par quel bet din ? En quelle année ?</h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="relation">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Êtes-vous né juif ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>De père et de mère</option>
+									<option>Que de père</option>
+									<option>Que de mère</option>
+									<option>Non je suis converti</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Origines religieuses<span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Parents juifs</option>
+									<option>Parents non-juifs</option>
+									<option>Père juif et mère non juive</option>
+									<option>Père non-juif et mère juive</option>
+									<option>Père juif et mère convertie</option>
+									<option>Père converti et mère juive</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Si vous êtes converti par quel bet din et en quelle année ?	</h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="relation">
+							</div>
+						</div>
+					</div>
+
+					<!-- Full name -->
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Êtes vous cohen ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Êtes vous compatible pour un cohen ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Êtes vous cohen ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- Relation with applicant -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Origine communautaire <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<div class="row g-2 g-sm-4">
+									<div class="col-4">
+										<select class="form-select js-choice z-index-9 border-0 " aria-label=".form-select-sm">
+											<option>Sépharade</option>
+											<option>Ashkénaze</option>
+											<option>Mixte</option>
+										</select>
+									</div>
+									<div class="col-4">
+										<input type="text" class="form-control" id="relation">
+									</div>
+								</div>
+							</div>
+					</div>
+					</div>
+
+					<!-- Email -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Accepterez vous de suivre votre conjoint après le mariage dans une autre ville ou ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="email2">
+							</div>
+						</div>
+					</div>
+
+					<!-- Phone number -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Niveau religieux <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="phoneNumber2">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">J'accepte de progresser dans ma pratique religieuse ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+									<option>Peut-être</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<!-- Home address -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Niveau d'études <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Avant Bac</option>
+									<option>Bac</option>
+									<option>Bac+2 - Bac +3</option>
+									<option>Bac+4 - Bac +5</option>
+									<option>Plus que Bac+5</option>
+
+								</select>							</div>
+						</div>
+					</div>
+
+					<!-- Job title -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Profession <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="jobTitle">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Occupations et hobbies <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="jobTitle">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Langues parlées <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="jobTitle">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Personnalité <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="jobTitle">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Description <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="jobTitle">
+							</div>
+						</div>
+					</div>
+
+					</div>
+
+					<!-- Divider -->
+					<!-- Education -->
+					<div class="tab"> Recherche
+					<!--<h5 class="mt-0">Recherche</h5>-->
+
+					<!-- School or college name -->
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Je recherche... critères les plus importants <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="collegeName" placeholder="Caractéristiques physique, limite d’âge, niveau religieux, traits de caractères …">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Mon projet de vie <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<input type="text" class="form-control" id="collegeName" placeholder="Je souhaite avoir des enfants ? Une vie familiale religieuse ? Quel niveau ?">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Je souhaite me marier dans les <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>3 mois</option>
+									<option>6 mois</option>
+									<option>12 mois</option>
+								</select>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Références (nom et tel de personnes qui vous connaissent)  <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8" >
+								<input type="text" class="form-control" id="collegeName" placeholder="Quelqu'un qui vous  connaît et qui peut donner des renseignements sur vous">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12" style="padding-bottom: 10px;">
+						<div class="row g-xl-0 align-items-center">
+							<div class="col-lg-4">
+								<h6 class="mb-lg-0">Souhaitez vous que votre profil soit visible ? <span class="text-danger">*</span></h6>
+							</div>
+							<div class="col-lg-8">
+								<select class="form-select js-choice z-index-9 rounded-3 border-0" aria-label=".form-select-sm">
+									<option>Oui</option>
+									<option>Non</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					</div>
+
+					<div style="overflow:auto;">
+						<div style="float:right;">
+						  <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+						  <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+						</div>
+					  </div>
+
+					  <div style="text-align:center;margin-top:40px;">
+						<span class="step"></span>
+						<span class="step"></span>
+						<span class="step"></span>
+						<span class="step"></span>
+					  </div>
+
+
+
+					<!-- Button -->
+					<!--<div class="col-12 text-sm-end">
+						<a class="btn btn-purple mb-0" href="monabonnement.html"><button class="btn btn-purple mb-0" type="button">Envoyer le formulaire</button></a>
+					</div>-->
+				</form>
+				<!-- Form END -->
+			</div>
+			<!-- Admission form END -->	
+		</div>
+	</div>
+</section>
+<!-- =======================
+Main part END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!-- =======================
+Footer START -->
+<footer class="pt-5 mt-6">
+	<div class="container">
+		<!-- Row START -->
+		<div class="row g-4">
+
+			<!-- Widget 1 START -->
+			<div class="col-lg-3">
+				<!-- logo -->
+				<a class="me-0" href="index.html">
+					<img style="margin-top: -9rem !important;" class="light-mode-item mb-n8" src="assets/images/logo.png" alt="logo">
+					<img class="dark-mode-item h-40px" src="assets/images/logo-light.svg" alt="logo">
+				</a>
+				<p style="font-size: 13px;" class="my-3">Bayit Shalem - Plateforme interactive de shiduhims</p>
+				<!-- Social media icon -->
+				<ul class="list-inline mb-0 mt-3">
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+				</ul>
+			</div>
+			<!-- Widget 1 END -->
+
+			<!-- Widget 2 START -->
+			<div class="col-lg-6">
+				<div class="row g-4">
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Bayit Shalem</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="apropos.html">À propos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="commentçamarche.html">Comment ça marche ?</a></li>
+							<li class="nav-item"><a class="nav-link" href="cgu.html">CGU</a></li>
+							</ul>
+					</div>
+									
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Communauté</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+						</ul>
+					</div>
+
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Shadhans</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="devenirshadhan.html">Devenir Shadhan</a></li>
+							<li class="nav-item"><a class="nav-link" href="charteshadhan.html">Charte Shadhan</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Widget 2 END -->
+
+			<!-- Widget 3 START -->
+			<div class="col-lg-3">
+				<h5 class="mb-2 mb-md-4">Nous contacter</h5>
+				<!-- Time -->
+				<ul class="nav flex-column">
+					<li class="nav-item "><a class="nav-link" href="tel:0767336038">Téléphone : +33.7.67.33.60.38</a></li>
+					<li class="nav-item "><a class="nav-link" href="tel:0972537084684">Téléphone : +972.537.084.684</a></li>
+					<li class="nav-item "><a class="nav-link" href="mailto:Bayitshalem.global@gmail.com">Email : Bayitshalem.global@gmail.com</a></li>
+				</ul>
+
+            <!-- Appli START -->
+			<!--	<div class="row g-2 mt-2">
+
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="assets/images/client/google-play.svg" alt=""> </a>
+					</div>
+
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="assets/images/client/app-store.svg" alt="app-store"> </a>
+					</div>
+				</div> -->
+            <!-- Appli START -->
+			</div> 
+			<!-- Widget 3 END -->
+		</div><!-- Row END -->
+
+		<!-- Divider -->
+		<hr class="mt-4 mb-0">
+
+		<!-- Bottom footer -->
+		<div class="py-3">
+			<div class="container px-0">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					<!-- copyright text -->
+					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2022 Bayit Shalem</a>. Tous droits réservés. </div>
+					<!-- copyright links-->
+					<div class=" mt-3 mt-md-0">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item">
+								<!-- Language selector -->
+								<div class="dropup mt-0 text-center text-sm-end">
+									<a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+										<i class="fas fa-globe me-2"></i>Language
+									</a>
+									<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+										<li><a class="dropdown-item me-4" href="inscription_en.html"><img class="fa-fw me-2" src="assets/images/flags/uk.svg" alt="">English</a></li>
+										<li><a class="dropdown-item me-4" href="inscription_is.html"><img class="fa-fw me-2" src="assets/images/flags/is.svg" alt="">Hebrew</a></li>
+										<li><a class="dropdown-item me-4" href="inscription_fr.html"><img class="fa-fw me-2" src="assets/images/flags/fr.svg" alt="">French</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="list-inline-item"><a class="nav-link" href="mentionslegales.html">Mentions légales</a></li>
+							<!-- <li class="list-inline-item"><a class="nav-link pe-0" href="#">Privacy policy</a></li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top 
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>-->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+<!-- <script src="//code.tidio.co/zgdvbrzl15jsmkd7uisjxvdjdhrvjjfm.js" async></script> -->
+</body>
+</html>

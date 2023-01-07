@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bayit Shalem - Plateforme interactive de shiduhims</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bayit Shalem - Plateforme interactive de shiduhims">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<!-- Header START -->
+<header class="navbar-light navbar-sticky header-static">
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-expand-xl">
+		<div class="container-fluid px-3 px-xl-5">
+			<!-- Logo START -->
+			<a style="display: block; width: auto;"  href="index.html">
+				<img style="height: 60px !important; max-width: inherit !important;" class="light-mode-item navbar-brand-item" src="assets/images/logo2.jpg" alt="logo">
+				<img class="dark-mode-item navbar-brand-item" src="assets/images/logo2.png" alt="logo">
+			</a>
+			<!-- Logo END -->
+
+			<!-- Responsive navbar toggler -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-animation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</button>
+
+			<!-- Main navbar START -->
+			<div class="navbar-collapse w-100 collapse" id="navbarCollapse">
+				<!-- Nav Main menu START -->
+				<ul class="navbar-nav navbar-nav-scroll me-auto">
+
+				<!-- Nav Search START -->
+				<div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+
+					</div>
+				</div>
+				<!-- Nav Search END -->
+			</div>
+			<!-- Main navbar END -->
+
+			<ul class="navbar-nav navbar-nav-scroll me-auto">
+					
+				<!-- Nav item 1 Profils -->
+				<li class="nav-item dropdown">
+					<a style="overflow: inherit;" class="btn btn-primary-soft" href="profils.html">Profils</a>
+				</li>
+				<!-- Nav item 2 Chiddoukhs -->
+				<li class="nav-item dropdown">
+					<a style="overflow: inherit;" class="btn btn-primary-soft ms-4 me-4" href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes chiddoukhs</a>
+					<ul class="dropdown-menu" aria-labelledby="demoMenu">
+						<li> <a class="dropdown-item active" href="chiddoukhactuel.html">Chiddoukh en cours</a></li>
+						<li> <a class="dropdown-item" href="listedemeschiddoukhs.html">Liste de mes chiddoukhs</a></li>
+					</ul>
+				</li>
+			</ul>
+			<!-- Profile START -->
+			<div class="dropdown ms-1 ms-lg-0">
+				<a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+					<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+				</a>
+				<ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3" aria-labelledby="profileDropdown">
+					<!-- Profile info -->
+					<li class="px-3">
+						<div class="d-flex align-items-center">
+							<!-- Avatar -->
+							<div class="avatar me-3">
+								<img class="avatar-img rounded-circle shadow" src="assets/images/avatar/01.jpg" alt="avatar">
+							</div>
+							<div>
+								<a class="h6" href="#">Bryan Lebar</a>
+								<p class="small m-0">b.lebar@outlook.fr</p>
+							</div>
+						</div>
+						<hr>
+					</li>
+					<!-- Links -->
+					<li><a class="dropdown-item" href="modifierprofil.html"><i class="bi bi-person fa-fw me-2"></i>Modifier mon profil</a></li>
+					<li><a class="dropdown-item" href="paramètresprofil.html"><i class="bi bi-gear fa-fw me-2"></i>Paramètres du compte</a></li>
+					<li><a class="dropdown-item bg-danger-soft-hover" href="index.html"><i class="bi bi-power fa-fw me-2"></i>Déconnexion</a></li>
+					<li> <hr class="dropdown-divider"></li>
+					<!-- Dark mode switch START / Disponible mode -->
+					<li>
+						<div class="modeswitch-wrap" id="darkModeSwitch">
+							<div class="modeswitch-item">
+								<div class="modeswitch-icon"></div>
+							</div>
+							<span>Disponibilité</span>
+						</div>
+					</li> 
+					<!-- Dark mode switch END / Disponible mode -->
+				</ul>
+			</div>
+			<!-- Profile START -->
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- Header END -->
+
+
+
+
+<div id="content" class="container mt-4 bg-light">
+<div class="row">
+<h2 class="text-center col-md-12">Mes chidouhs</h2>
+</div>
+<div class="row mt-4">
+<table class="col-md-12 table  table-hover table-borderless">
+<thead>
+<tr style="font-weight: bold;">
+<td>#</td>
+<td class="text-center">Concernés</td>
+<td>Date</td>
+<td>Statut</td>
+<td>Voir</td>
+<td>Actions</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>233</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>
+Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Douek Ylana
+</div>
+</div>
+</td>
+<td>21-03-2022, 19:51:30</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="chiddoukhactuel.html" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_233" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="233" name="chidour_id">
+<select name="actions" id="actions_233" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>263</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Touitou Avigael
+</div>
+</div>
+</td>
+<td>31-03-2022, 09:34:15</td>
+ <td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/263" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_263" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="263" name="chidour_id">
+<select name="actions" id="actions_263" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>284</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Saada Esther
+</div>
+</div>
+</td>
+<td>04-04-2022, 08:37:49</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/284" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_284" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="284" name="chidour_id">
+<select name="actions" id="actions_284" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>314</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div> M.... Ashley
+</div>
+</div>
+</td>
+<td>15-04-2022, 10:15:13</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/314" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_314" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="314" name="chidour_id">
+<select name="actions" id="actions_314" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>326</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>M.... Ashley
+</div>
+</div>
+</td>
+<td>29-04-2022, 11:19:41</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/326" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_326" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="326" name="chidour_id">
+<select name="actions" id="actions_326" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>433</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Ek Ek46
+</div>
+</div>
+</td>
+<td>25-05-2022, 10:22:57</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/433" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_433" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="433" name="chidour_id">
+<select name="actions" id="actions_433" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>460</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Azoulay Emouna
+</div>
+</div>
+</td>
+<td>31-05-2022, 12:16:06</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/460" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_460" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="460" name="chidour_id">
+<select name="actions" id="actions_460" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>464</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>Berdah Léa
+</div>
+</div>
+</td>
+<td>31-05-2022, 15:30:05</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/464" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_464" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="464" name="chidour_id">
+<select name="actions" id="actions_464" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+<tr>
+<td>487</td>
+<td>
+<div class="row" style="text-align: -webkit-center;">
+<div class="col-md-6">
+<div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/prince.png" alt="logo"> 
+</div>Lebar Bryan
+</div>
+<div class="col-md-6">
+    <div class="avatar-img" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg');">     <img width="27px" height="27px"  src="assets/images/princesse.png" alt="logo"> 
+    </div>DE.. AU..
+</div>
+</div>
+</td>
+<td>09-06-2022, 07:45:07</td>
+<td>
+<span class="badge badge-danger text-black">Fermé</span>
+</td>
+<td><a href="/chidour/487" class="text-primary"><i class="fa fa-eye"></i> Voir</a></td>
+<td>
+<form id="chidour-actions_487" action="https://www.chidoukhim.com/fr/actions_chidour" method="post">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <input type="hidden" value="487" name="chidour_id">
+<select name="actions" id="actions_487" class="form-control actions">
+<option disabled selected>Choisir</option>
+<option value="marie">Annoncer mariage</option>
+<option value="fini">Annuler chidour</option>
+</select>
+</form>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- =======================
+Footer START -->
+<footer style="background-color: #8153A0
+; --bs-bg-opacity: 1;" class="p-3">
+	<div class="container">
+		<div class="row align-items-center">
+			<!-- Widget -->
+			<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+				<!-- Logo START -->
+				<a href="index.html"> <img class="h-20px" src="assets/images/logo2.png" alt="logo"> </a>
+			</div>
+			
+			<!-- Widget -->
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="text-center text-white"> Copyrights ©2022 <a href="#" class="text-reset btn-link">Bayit Shalem</a>. Tous droits réservés. </div>
+			</div>
+			<!-- Widget -->
+			<div class="col-md-4">
+				<!-- Rating -->
+				<ul class="list-inline mb-0 mt-3">
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div>  -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+<script src="//code.tidio.co/zgdvbrzl15jsmkd7uisjxvdjdhrvjjfm.js" async></script>
+
+
+</body>
+</html>

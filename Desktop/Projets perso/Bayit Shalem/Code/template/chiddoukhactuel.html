@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bayit Shalem - Plateforme interactive de shiduhims</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bayit Shalem - Plateforme interactive de shiduhims">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+</head>
+
+<body>
+
+<!-- Header START -->
+<header class="navbar-light navbar-sticky header-static">
+	<!-- Logo Nav START -->
+	<nav class="navbar navbar-expand-xl">
+		<div class="container-fluid px-3 px-xl-5">
+			<!-- Logo START -->
+			<a style="display: block; width: auto;"  href="index.html">
+				<img style="height: 60px !important; max-width: inherit !important;" class="light-mode-item navbar-brand-item" src="assets/images/logo2.jpg" alt="logo">
+				<img class="dark-mode-item navbar-brand-item" src="assets/images/logo2.png" alt="logo">
+			</a>
+			<!-- Logo END -->
+
+			<!-- Responsive navbar toggler -->
+			<button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-animation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</button>
+
+			<!-- Main navbar START -->
+			<div class="navbar-collapse w-100 collapse" id="navbarCollapse">
+				<!-- Nav Main menu START -->
+				<ul class="navbar-nav navbar-nav-scroll me-auto">
+
+				<!-- Nav Search START -->
+				<div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+
+					</div>
+				</div>
+				<!-- Nav Search END -->
+			</div>
+			<!-- Main navbar END -->
+
+			<ul class="navbar-nav navbar-nav-scroll me-auto">
+					
+				<!-- Nav item 1 Profils -->
+				<li class="nav-item dropdown">
+					<a style="overflow: inherit;" class="btn btn-primary-soft" href="profils.html">Profils</a>
+				</li>
+				<!-- Nav item 2 Chiddoukhs -->
+				<li class="nav-item dropdown">
+					<a style="overflow: inherit;" class="btn btn-primary-soft ms-4 me-4" href="#" id="demoMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mes chiddoukhs</a>
+					<ul class="dropdown-menu" aria-labelledby="demoMenu">
+						<li> <a class="dropdown-item active" href="chiddoukhactuel.html">Chiddoukh en cours</a></li>
+						<li> <a class="dropdown-item" href="listedemeschiddoukhs.html">Liste de mes chiddoukhs</a></li>
+					</ul>
+				</li>
+			</ul>
+			<!-- Profile START -->
+			<div class="dropdown ms-1 ms-lg-0">
+				<a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+					<img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+				</a>
+				<ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3" aria-labelledby="profileDropdown">
+					<!-- Profile info -->
+					<li class="px-3">
+						<div class="d-flex align-items-center">
+							<!-- Avatar -->
+							<div class="avatar me-3">
+								<img class="avatar-img rounded-circle shadow" src="assets/images/avatar/01.jpg" alt="avatar">
+							</div>
+							<div>
+								<a class="h6" href="#">Bryan Lebar</a>
+								<p class="small m-0">b.lebar@outlook.fr</p>
+							</div>
+						</div>
+						<hr>
+					</li>
+					<!-- Links -->
+					<li><a class="dropdown-item" href="modifierprofil.html"><i class="bi bi-person fa-fw me-2"></i>Modifier mon profil</a></li>
+					<li><a class="dropdown-item" href="paramètresprofil.html"><i class="bi bi-gear fa-fw me-2"></i>Paramètres du compte</a></li>
+					<li><a class="dropdown-item bg-danger-soft-hover" href="index.html"><i class="bi bi-power fa-fw me-2"></i>Déconnexion</a></li>
+					<li> <hr class="dropdown-divider"></li>
+					<!-- Dark mode switch START / Disponible mode -->
+					<li>
+						<div class="modeswitch-wrap" id="darkModeSwitch">
+							<div class="modeswitch-item">
+								<div class="modeswitch-icon"></div>
+							</div>
+							<span>Disponibilité</span>
+						</div>
+					</li> 
+					<!-- Dark mode switch END / Disponible mode -->
+				</ul>
+			</div>
+			<!-- Profile START -->
+		</div>
+	</nav>
+	<!-- Logo Nav END -->
+</header>
+<!-- Header END -->
+
+
+<div id="content" class="container mt-4">
+<div class="row" style="background-color: #fff;">
+ <div class="col-sm-6">
+<table class="table table-borderless table-striped">
+<tr>
+<td>
+<strong>Shadhanite/Shadhan : </strong>
+Shmuel Haggai
+<sup>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/France/1/tiny/France.png' alt="France" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+</sup>
+</td>
+</tr>
+</table>
+</div>
+<div class="col-sm-6">
+<table class="table table-borderless table-striped">
+<tr>
+<td>
+<strong>Shadhanite/Shadhan : </strong>
+Shmuel Haggai
+<sup>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/France/1/tiny/France.png' alt="France" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+</sup>
+</td>
+</tr>
+</table>
+</div>
+<div class="row col-md-12">
+<div class="col-md-6 text-center mb-3">
+<span class="p-2 badge badge-info" style="font-size: 1rem;"> <i class="fa fa-ellipsis-h"></i> Chidouh en attente</span>
+</div>
+<div class="col-md-6 text-center mb-3">
+<span class="p-2 badge badge-success" style="font-size: 1rem;"> <i class="fa fa-thumbs-up"></i> Chidouh accepté</span>
+</div>
+</div>
+<div class="col-md-6">
+<div id="content" class="content content-full-width">
+
+<div class="profile">
+<div class="profile-header">
+
+<div class="profile-header-cover" style="background-image: url('/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg')"></div>
+
+
+<div class="profile-header-content">
+
+<div class="profile-header-img">
+<img src="/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg" alt="">
+</div>
+
+
+<div class="profile-header-info">
+<h4 class="m-t-10 m-b-5" style="text-transform: none;"> Bryan Lebar
+<sup>
+<small>
+Marseille, France
+</small>
+</sup>
+</h4>
+<p class="m-b-10">
+26 ans
+</p>
+</div>
+
+</div>
+
+
+<ul class="profile-header-tab nav nav-tabs">
+ <li class="nav-item"><a href="#profile-about_1" class="nav-link" data-toggle="tab">A PROPOS</a></li>
+<li class="nav-item"><a href="#profile-photos_1" class="nav-link" data-toggle="tab">PHOTOS</a></li>
+</ul>
+
+</div>
+</div>
+
+
+<div class="profile-content">
+
+<div class="tab-content p-0">
+
+<div class="tab-pane fade active show" id="profile-about_1">
+<div class="row mt-5 sm-mt-3">
+<div class="col-md-12 text-center">
+<h5>Shadhanite/Shadhan : <a href="/user/612892cca8a86" target="_blank"> Shmuel Haggai </a> </h5>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Identité</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Genre : </strong> Homme</td>
+<td width="50%"> <strong>Langues parlées :</strong>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/United_Kingdom/1/tiny/United_Kingdom.png' alt="United_Kingdom" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/France/1/tiny/France.png' alt="France" /> </span>
+</td>
+</tr>
+<tr>
+<td> <strong>Date de naissance :</strong> 25 mai 1996</td>
+<td> <strong>Statut marital :</strong> Célibataire</td>
+</tr>
+<tr>
+<td> <strong>Profession : </strong> Ingénieur informatique</td>
+<td> <strong>Niveau d&#039;étude :</strong> Niveau BAC+5</td>
+</tr>
+<tr>
+<td> <strong>Nombre d&#039;enfants :</strong> 0</td>
+<td> <strong>Nombre d&#039;enfants vivants a la maison :</strong> 0</td>
+</tr>
+<tr>
+<td> <strong>Garde alternée : </strong> Non</td>
+<td></td>
+</tr>
+<tr>
+<td> <strong>Email : </strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e280cc8e87808390a28d97968e8d8d89cc8490">[email&#160;protected]</a></td>
+<td> </td>
+</tr>
+</table>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Religion</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Cohen : </strong> Non</td>
+<td width="50%"> <strong>Courant d&#039;appartenance religieuse :</strong> Orthodoxe - Moderne</td>
+</tr>
+<tr>
+<td colspan="2"> <strong>Pratique religieuse actuelle :</strong> Chomer chabbat, Respect des fêtes, Fixe des temps d&#039;étude - Régulièrement, Port de la kippa en permanence, Prières - 3 fois par jour, </td>
+</tr>
+<tr>
+<td> <strong>Origine : </strong> Sephardi</td>
+<td> <strong>Références :</strong> </td>
+</tr>
+<tr>
+<td> <strong>Ancienneté de la pratique religieuse :</strong> Né(e) dans une famille religieuse</td>
+<td> <strong>Nom du rabbin :</strong> Rav David benzaquen</td>
+</tr>
+</table>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Préférences &amp; description</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Taille : </strong> 175</td>
+<td width="50%"> <strong>Poids :</strong> </td>
+</tr>
+<tr>
+<td> <strong>Silhouette :</strong> Normale</td>
+<td> <strong>Intervalle d&#039;age désirée : </strong> 18 - 26 </td>
+</tr>
+<tr>
+<td> <strong>A propos :</strong> Sincère et drôle à la fois, orthodoxe moderne</td>
+<td> <strong>Handicap :</strong>
+Aucun
+</td>
+</tr>
+<tr>
+<td> <strong>Attentes : </strong> Fille religieuse, tsiniout, chomeret neguia, voulant fonder un foyer dans la religion</td>
+<td> <strong>Veut suivre votre conjoint après le mariage dans une autre ville ou pays :</strong> Oui</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<div class="tab-pane fade" id="profile-photos_1">
+<div class="photo-gallery mt-5">
+<div class="container">
+<div class="row photos">
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1647892170_A40FCA8D-410D-4E5F-BC9D-E59C6749EC03.jpeg"></a></div>
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1647892170_B2EFB7EB-FD07-4658-A5DD-53BDED5BAF50.jpeg" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1647892170_B2EFB7EB-FD07-4658-A5DD-53BDED5BAF50.jpeg"></a></div>
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1647892170_C4F942B2-F760-4E23-8AAB-B08099562A8F.jpeg" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1647892170_C4F942B2-F760-4E23-8AAB-B08099562A8F.jpeg"></a></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+<div class="col-md-6">
+<div id="content" class="content content-full-width">
+
+<div class="profile">
+<div class="profile-header">
+
+<div class="profile-header-cover" style="background-image: url('/storage/uploads/1633702902_Capture d’écran 2021-10-07 à 19.36.48.png')"></div>
+
+
+<div class="profile-header-content">
+
+<div class="profile-header-img">
+<img src="/storage/uploads/1633702902_Capture d’écran 2021-10-07 à 19.36.48.png" alt="">
+</div>
+
+
+ <div class="profile-header-info">
+<h4 class="m-t-10 m-b-5" style="text-transform: none;"> Ylana Douek
+<sup>
+<small>
+Marseille, France
+</small>
+</sup>
+</h4>
+<p class="m-b-10">
+24 ans
+</p>
+</div>
+
+</div>
+
+
+<ul class="profile-header-tab nav nav-tabs">
+<li class="nav-item"><a href="#profile-about_2" class="nav-link" data-toggle="tab">A PROPOS</a></li>
+<li class="nav-item"><a href="#profile-photos_2" class="nav-link" data-toggle="tab">PHOTOS</a></li>
+</ul>
+
+</div>
+</div>
+
+
+<div class="profile-content">
+
+<div class="tab-content p-0">
+
+<div class="tab-pane fade active show" id="profile-about_2">
+<div class="row mt-5 sm-mt-3">
+<div class="col-md-12 text-center">
+<h5>Shadhanite/Shadhan : <a href="/user/612892cca8a86" target="_blank"> Shmuel Haggai </a> </h5>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Identité</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Genre : </strong> Femme</td>
+<td width="50%"> <strong>Langues parlées :</strong>
+<span><img src='https://www.free-country-flags.com/countries/Israel/1/tiny/Israel.png' alt="Israel" /> </span>
+<span><img src='https://www.free-country-flags.com/countries/France/1/tiny/France.png' alt="France" /> </span>
+</td>
+</tr>
+<tr>
+<td> <strong>Date de naissance :</strong> 28 novembre 1997</td>
+<td> <strong>Statut marital :</strong> Célibataire</td>
+</tr>
+<tr>
+<td> <strong>Profession : </strong> Étudiante Préparatrice Pharmacienne</td>
+<td> <strong>Niveau d&#039;étude :</strong> Niveau BAC+1</td>
+</tr>
+<tr>
+<td> <strong>Nombre d&#039;enfants :</strong> 0</td>
+<td> <strong>Nombre d&#039;enfants vivants a la maison :</strong> 0</td>
+</tr>
+<tr>
+<td> <strong>Garde alternée : </strong> Non</td>
+<td></td>
+</tr>
+</table>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Religion</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Cohen : </strong> Oui</td>
+<td width="50%"> <strong>Courant d&#039;appartenance religieuse :</strong> Traditionaliste</td>
+</tr>
+<tr>
+<td colspan="2"> <strong>Pratique religieuse actuelle :</strong> Prières - 1 fois par jour, </td>
+</tr>
+<tr>
+<td> <strong>Origine : </strong> Sephardi</td>
+<td> <strong>Références :</strong> </td>
+</tr>
+<tr>
+<td> <strong>Ancienneté de la pratique religieuse :</strong> Né(e) dans une famille religieuse</td>
+<td> <strong>Nom du rabbin :</strong> </td>
+</tr>
+</table>
+</div>
+<div class="col-md-12 text-left mb-5">
+<h4 class="title divider-3 mb-3">Préférences &amp; description</h4>
+<table class="table table-borderless table-striped">
+<tr>
+<td width="50%"> <strong>Taille : </strong> 1.65</td>
+<td width="50%"> <strong>Poids :</strong> </td>
+</tr>
+<tr>
+<td> <strong>Silhouette :</strong> Fine</td>
+<td> <strong>Intervalle d&#039;age désirée : </strong> 24 - 30 </td>
+</tr>
+<tr>
+<td> <strong>A propos :</strong> Je suis souriante, ambitieuse, indépendante, j’aime rigoler et ne pas me prendre la tête, on fumeur, souhaite créer un foyer.</td>
+<td> <strong>Handicap :</strong>
+Aucun
+</td>
+</tr>
+<tr>
+<td> <strong>Attentes : </strong> Qu’il soit chômer chabbat, souriant, avec une belle joie de vivre.</td>
+<td> <strong>Veut suivre votre conjoint après le mariage dans une autre ville ou pays :</strong> Oui</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+
+<div class="tab-pane fade" id="profile-photos_2">
+<div class="photo-gallery mt-5">
+<div class="container">
+<div class="row photos">
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1633702902_Capture d’écran 2021-10-07 à 19.36.48.png" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1633702902_Capture d’écran 2021-10-07 à 19.36.48.png"></a></div>
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1631690481_1630835108_57B5C76C-19AE-498F-92A2-8FC9A8ADD73E.jpeg" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1631690481_1630835108_57B5C76C-19AE-498F-92A2-8FC9A8ADD73E.jpeg"></a></div>
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1631690481_1630835108_A08FF5B2-040B-4042-8064-A04F234DB948.jpeg" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1631690481_1630835108_A08FF5B2-040B-4042-8064-A04F234DB948.jpeg"></a></div>
+<div class="col-sm-6 col-md-4 col-lg-3 item text-center mt-3 mb-3"><a href="/storage/uploads/1633702957_Capture d’écran 2021-10-07 à 19.36.59.png" data-lightbox="photos"><img class="img-fluid" src="/storage/uploads/1633702957_Capture d’écran 2021-10-07 à 19.36.59.png"></a></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="avis">
+<div class="alert alert-warning">Aucun commentaire</div>
+<div>
+</div>
+<div class="card">
+<div class="card-body">
+<form method="POST" action="https://www.chidoukhim.com/comments">
+<input type="hidden" name="_token" value="GhRrxLRFAVzlcMlz2Ega1lT6YSUTIlueWfiF5KL7"> <div id="my_name_1YaQFm5HU8U2vY7J_wrap" style="display:none;">
+<input name="my_name_1YaQFm5HU8U2vY7J" type="text" value="" id="my_name_1YaQFm5HU8U2vY7J">
+<input name="valid_from" type="text" value="eyJpdiI6InRpcmZUdnlRMmJJK0JSMHZUb2pQQWc9PSIsInZhbHVlIjoiL2wvekVFU1J2dXFUeVZYMEIrS3Nvdz09IiwibWFjIjoiNmI4ZWM0ZjgxOWEyYjQ0Y2ExZTkwNDE5ZWE5OGEzOTRmMjYyOTcxZDYwNDk1NmNhYjhmY2U5ODY3YjQzNDcwNCJ9">
+</div>
+<input type="hidden" name="commentable_type" value="\App\Models\Chidour" />
+<input type="hidden" name="commentable_id" value="233" />
+<div class="form-group">
+<label for="message">Entre:</label>
+<textarea class="form-control " name="message" rows="3"></textarea>
+<div class="invalid-feedback">
+Votre message est requis. </div>
+<small class="form-text text-muted"><a target="_blank" href="https://help.github.com/articles/basic-writing-and-formatting-syntax">Markdown</a> cheatsheet.</small>
+</div>
+<button type="submit" class="btn btn-sm btn-outline-success text-uppercase">Envoyer</button>
+</form>
+</div>
+</div>
+<br />
+</div>
+</div>
+
+<!-- =======================
+Footer START -->
+<footer class="pt-5 mt-6">
+	<div class="container">
+		<!-- Row START -->
+		<div class="row g-4">
+
+			<!-- Widget 1 START -->
+			<div class="col-lg-3">
+				<!-- logo -->
+				<a class="me-0" href="index.html">
+					<img style="margin-top: -9rem !important;" class="light-mode-item mb-n8" src="assets/images/logo2.png" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="assets/images/logo2.png" alt="logo">
+				</a>
+				<p style="font-size: 13px;" class="my-3">Bayit Shalem - Plateforme interactive de shiduhims</p>
+				<!-- Social media icon -->
+				<ul class="list-inline mb-0 mt-3">
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+				</ul>
+			</div>
+			<!-- Widget 1 END -->
+
+			<!-- Widget 2 START -->
+			<div class="col-lg-6">
+				<div class="row g-4">
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Bayit Shalem</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="apropos.html">À propos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="commentçamarche.html">Comment ça marche ?</a></li>
+							<li class="nav-item"><a class="nav-link" href="cgu.html">CGU</a></li>
+							</ul>
+					</div>
+									
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Communauté</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+						</ul>
+					</div>
+
+					<!-- Link block -->
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Shadhans</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="devenirshadhan.html">Devenir Shadhan</a></li>
+							<li class="nav-item"><a class="nav-link" href="charteshadhan.html">Charte Shadhan</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Widget 2 END -->
+
+			<!-- Widget 3 START -->
+			<div class="col-lg-3">
+				<h5 class="mb-2 mb-md-4">Nous contacter</h5>
+				<!-- Time -->
+				<ul class="nav flex-column">
+					<li class="nav-item "><a class="nav-link" href="tel:0767336038">Téléphone : +33.7.67.33.60.38</a></li>
+					<li class="nav-item "><a class="nav-link" href="tel:0972537084684">Téléphone : +972.537.084.684</a></li>
+					<li class="nav-item "><a class="nav-link" href="mailto:Bayitshalem.global@gmail.com">Email : Bayitshalem.global@gmail.com</a></li>
+				</ul>
+
+            <!-- Appli START -->
+			<!--	<div class="row g-2 mt-2">
+
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="assets/images/client/google-play.svg" alt=""> </a>
+					</div>
+
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="assets/images/client/app-store.svg" alt="app-store"> </a>
+					</div>
+				</div> -->
+            <!-- Appli START -->
+			</div> 
+			<!-- Widget 3 END -->
+		</div><!-- Row END -->
+
+		<!-- Divider -->
+		<hr class="mt-4 mb-0">
+
+		<!-- Bottom footer -->
+		<div class="py-3">
+			<div class="container px-0">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					<!-- copyright text -->
+					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2022 Bayit Shalem</a>. Tous droits réservés. </div>
+					<!-- copyright links-->
+					<div class=" mt-3 mt-md-0">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item">
+								<!-- Language selector -->
+								<div class="dropup mt-0 text-center text-sm-end">
+									<a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+										<i class="fas fa-globe me-2"></i>Language
+									</a>
+									<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+										<li><a class="dropdown-item me-4" href="inscription_en.html"><img class="fa-fw me-2" src="assets/images/flags/uk.svg" alt="">English</a></li>
+										<li><a class="dropdown-item me-4" href="inscription_is.html"><img class="fa-fw me-2" src="assets/images/flags/is.svg" alt="">Hebrew</a></li>
+										<li><a class="dropdown-item me-4" href="inscription_fr.html"><img class="fa-fw me-2" src="assets/images/flags/fr.svg" alt="">French</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="list-inline-item"><a class="nav-link" href="mentionslegales.html">Mentions légales</a></li>
+							<!-- <li class="list-inline-item"><a class="nav-link pe-0" href="#">Privacy policy</a></li> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top 
+<div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i></div> -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+<script src="//code.tidio.co/zgdvbrzl15jsmkd7uisjxvdjdhrvjjfm.js" async></script>
+</body>
+</html>
